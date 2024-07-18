@@ -1,7 +1,9 @@
+# main branch
+
 # merge.py
 def greet():
     print("Hello from the dayeon branch")
-    
+
 def add(a, b):
     return a + b
 
@@ -23,7 +25,6 @@ def main():
     result_sub = subtract(10, 5)
     result_mul = multiply(10, 5)
     result_div = divide(10, 5)
-    print(f"Add: {result_add}, Subtract: {result_sub}, Multipl")
-      
+   
 if __name__ == "__main__":
     main()
